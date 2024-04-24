@@ -1,3 +1,43 @@
 /*
 Theme Name: Livlyon
+Author: Livlyon
+Version: 1.0
+Description: Livlyon is a theme for the WordPress CMS.
+
 */
+
+body {
+    background-color: #f3efd5;
+}
+
+nav{
+    top:10%;
+    color : #303030;
+    position: relative;
+    left : 60%;
+}
+
+nav li{
+    float: left;
+    font-family: sans-serif;
+    width: 5%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+
+nav a:hover{
+    cursor: pointer;
+}
+
+.buttonContact {
+
+    border : solid;
+    border-radius: 3px;
+    border-color: #eec0bc;
+    padding : 10px 20px;
+}
