@@ -13,34 +13,31 @@
         <div class="group-137">
         <img class="logo" src="<?php echo get_template_directory_uri(); ?>/asset/img/logo.svg" alt="Liv Lyon" class="logo" />
         <div class="group-136">
-        <a href="#">Équipes</a>
+        <a href="#" class="equipe">Équipes</a>
         <a href="#">A propos</a>
         <a href="#">Agenda</a>
         <a href="#">Actu</a>
-        </div>
         <a href="#" class="group-69">Contact</a>
+
+        </div>
+        </div>
     </nav>
-    <img class="star-12" src="<?php echo get_template_directory_uri(); ?>/asset/img/etoile_jaune.png" alt="Flèche" class="arrow" />
+    <img class="star-12" src="<?php echo get_template_directory_uri(); ?>/asset/img/etoile_jaune.svg" alt="Flèche" class="arrow" />
     <div class="group-81">
         <h1>
         <?php
-        if (have_posts()) {
-            while (have_posts()) {
-                the_post();
-                $pageTitle = get_the_title();
-                echo $pageTitle;
-            }
-        }
+        the_title()
         ?>
         </h1>
+        <div class="description">
             <?php
-            if (have_posts()) {
-                while (have_posts()) {
-                    the_post();
-                    echo '<p>' . get_the_content() . '</p>';
-                }
-            }
+            the_content()
             ?>
+        </div>
     </div>
+    <img class="star-11" src="<?php echo get_template_directory_uri(); ?>/asset/img/etoile_jaune.svg" alt="Flèche" class="arrow" />
+    <img class="image" src="<?php echo get_template_directory_uri(); ?>/asset/img/ville.svg" alt="Image" class="image" />
+    <img class="bande" src="<?php echo get_template_directory_uri(); ?>/asset/img/bandeau.svg" alt="Bandeau" class="bande" />
+
 </body>
 </html>

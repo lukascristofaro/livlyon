@@ -1,16 +1,18 @@
 body {
     background-color: #f3efd5;
     font-family: 'Montserrat';
+    overflow:hidden;
 }
 
 /* Star 11 */
 .star-11 {
     position: absolute;
-    width: 443px;
-    height: 443px;
-    left: 1047px;
-    top: 388px;
-    background: #C5F30F;
+    width: 575px;
+    height: auto;
+    left: 1370px;
+    top: 500px;
+
+
 }
 
 /* Rectangle 75 */
@@ -48,9 +50,9 @@ body {
 /* Star 12 */
 .star-12 {
     position: absolute;
-    width: 265px;
-    height: 265px;
-    left: 90px;
+    width: 344px;
+    height: auto;
+    left: 117px;
     top: 175px;
 }
 
@@ -58,14 +60,59 @@ body {
 
 /* Group 137 */
 .group-137 {
-    text-decoration: none;
 
     position: absolute;
     width: 1120px;
     height: 35px;
-    left: 160px;
+    left: 208px;
     top: 28px;
 }
+
+/* Group 136 */
+.group-136 {
+
+
+    color : #303030;
+    position: relative;
+    width: 448px;
+    height: 35px;
+    left: 1081px;
+    margin: 0 100px;
+
+    text-decoration: none;
+
+
+    
+}
+
+
+
+.bande {
+
+position: relative;
+width: 2072px;
+height: auto;
+left: -77px;
+top : 278px;
+
+background: #303030;
+transform: rotate(-4deg);
+
+}
+
+.image {
+    /* Mode_Isolation */
+
+position: relative;
+width: 1150;
+height: auto;
+left: 808px;
+top: 248.78px;
+
+transform: rotate(-4deg);
+
+}
+
 
 /* Frame 1 */
 .frame-1 {
@@ -101,14 +148,7 @@ body {
     background: url(.png);
 }
 
-/* Group 136 */
-.group-136 {
-    position: absolute;
-    width: 448px;
-    height: 35px;
-    left: 832px;
-    top: 28px;
-}
+
 
 /* Équipes */
 .equipes {
@@ -188,12 +228,12 @@ body {
 
 /* Group 69 */
 .group-69 {
-    border: 5px solid;
+    border: 1px solid;
     position: absolute;
     width: 127px;
     height: 35px;
-    left: 1153px;
-    top: 28px;
+    color : #303030;
+
 }
 
 /* Contact */
@@ -231,15 +271,14 @@ body {
     position: absolute;
     width: 406px;
     height: 275px;
-    left: 160px;
-    top: 170px;
+    left: 208px;
+    top: 135px;
 }
 
 h1 {
 
 
 font-family: 'Montserrat';
-font-style: normal;
 font-weight: 900;
 font-size: 64px;
 line-height: 78px;
@@ -251,6 +290,20 @@ text-transform: uppercase;
 
 color: #303030;
 
+
+}
+
+.description {
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.015em;
+
+color: #303030;
 
 }
 
