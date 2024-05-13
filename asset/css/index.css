@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat";
+}
+
+.subtitle {
+    font-size: 3em;
+    font-weight: 900;
+    color: #333;
+    margin-left: -25vh;
+}
+
+.cercle {
+    margin-left: 10vh;
+    height: 84px;
+    width: 333px;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+}
+
+
+.petiteetoilefonce {
+    margin-left: 5vh;
+}
+
+.paragrapheequipe {
+    margin-top: -1vh;
+    margin-left: 15vw;
+    word-wrap: break-word; 
+}
+
+.soustitre {
+    width: 40vw;
+    margin-top: 10vw;
+    margin-left: 35vh;
+}
+
+
+.cards {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+  color: #000;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-color: transparent;
+  display: inline-block;
+  width: 280px;
+  height: 300px;
+  text-align: center;
+}
+
+.card figure img {
+  box-shadow: -1vh 1vh 0 5px #303030;
+  margin-bottom: 2vh;
+}
+
+.card img {
+    width: 40vh;
+    height: 40vh;
+    object-fit: cover;
+    box-shadow: -1vh 1vh 0 5px #303030;
+
+}

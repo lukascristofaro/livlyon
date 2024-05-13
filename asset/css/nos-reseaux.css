@@ -1,0 +1,89 @@
+#reseaux {
+  width: 100%;
+}
+
+.redStar,
+.yellowStar {
+  width: 443px;
+  height: 443px;
+}
+
+.nos-reseaux {
+  letter-spacing: -0.015em;
+  color: #f3efd5;
+  white-space: nowrap;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  margin: 10vh;
+}
+
+#reseaux p {
+  width: 50vw;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  letter-spacing: -0.015em;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4vh;
+}
+
+.link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3efd5;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin: 2vw;
+}
+
+.link img {
+  width: 26px;
+  height: 26px;
+}
+
+.parent {
+  position: relative;
+  padding-top: 18%;
+  padding-bottom: 10%;
+
+}
+.redStar {
+  z-index: -1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.child2 {
+  width: 100vw;
+  z-index: 100;
+  height: auto;
+  background: #303030;
+flex-direction: column;
+  font-style: normal;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+.yellowStar {
+  z-index: -1000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

@@ -1,640 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background-color: #f3efd5;
-    font-family: 'Montserrat';
-    overflow:hidden;
+  background-color: #f3efd5;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+* {
+  font-family: "Montserrat";
+  color: #303030;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.space8 {
+  width: 48px;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.space32 {
+  height: 64px;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  margin-left: 11vw;
+}
+.menu {
+  height: 100%;
+  position: absolute;
+  right: 13vw;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+#CTA {
+  padding: 10px 42px;
+  border: #000000 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  cursor: pointer;
 }
 
-/* Star 11 */
-.star-11 {
-    position: absolute;
-    width: 575px;
-    height: auto;
-    left: 1370px;
-    top: 500px;
 
-
+.parentpresentation {
+  margin-top: 5vh;
+  position: relative;
+  padding: 5%;
 }
 
-/* Rectangle 75 */
-.rectangle-75 {
-    position: absolute;
-    width: 340px;
-    height: 177.79px;
-    left: 1093.14px;
-    top: 379.48px;
-    background: #F3EFD5;
-    transform: rotate(-4deg);
-}
-
-/* Mode_Isolation */
-.mode-isolation {
-    position: absolute;
-    width: 885.62px;
-    height: 301.57px;
-    left: 545px;
-    top: 248.78px;
-    transform: rotate(-4deg);
-}
-
-/* illustration_lyon */
-.illustration-lyon {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 20.49%;
-    bottom: -20.49%;
-    background: #303030;
-    transform: rotate(-4deg);
-}
-
-/* Star 12 */
 .star-12 {
-    position: absolute;
-    width: 344px;
-    height: auto;
-    left: 117px;
-    top: 175px;
-}
-
-
-
-/* Group 137 */
-.group-137 {
-
-    position: absolute;
-    width: 1120px;
-    height: 35px;
-    left: 208px;
-    top: 28px;
-}
-
-/* Group 136 */
-.group-136 {
-
-
-    color : #303030;
-    position: relative;
-    width: 448px;
-    height: 35px;
-    left: 1081px;
-    margin: 0 100px;
-
-    text-decoration: none;
-
-
-    
-}
-
-
-
-.bande {
-
-position: relative;
-width: 2072px;
-height: auto;
-left: -77px;
-top : 278px;
-
-background: #303030;
-transform: rotate(-4deg);
-
-}
-
-.image {
-    /* Mode_Isolation */
-
-position: relative;
-width: 1150;
-height: auto;
-left: 808px;
-top: 248.78px;
-
-transform: rotate(-4deg);
-
-}
-
-
-/* Frame 1 */
-.frame-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 35px;
-    position: absolute;
-    width: 133px;
-    height: 29px;
-    left: 160px;
-    top: 31px;
-}
-
-/* Calque_1 */
-.calque-1 {
-    width: 133px;
-    height: 29px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-/* Rectangle */
-.rectangle {
-    position: absolute;
-    left: 0%;
-    right: -1.79%;
-    top: 0%;
-    bottom: -1.81%;
-    background: url(.png);
-}
-
-
-
-/* Équipes */
-.equipes {
-    position: absolute;
-    width: 61px;
-    height: 18px;
-    left: 832px;
-    top: 36.5px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #303030;
-}
-
-/* A propos */
-.a-propos {
-    position: absolute;
-    width: 67px;
-    height: 18px;
-    left: 916px;
-    top: 36.5px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #303030;
-}
-
-/* Agenda */
-.agenda {
-    position: absolute;
-    width: 59px;
-    height: 18px;
-    left: 1007px;
-    top: 36.5px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #303030;
-}
-
-/* Actu */
-.actu {
-    position: absolute;
-    width: 36px;
-    height: 18px;
-    left: 1089px;
-    top: 36.5px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #303030;
-}
-
-/* Group 69 */
-.group-69 {
-    border: 1px solid;
-    position: absolute;
-    width: 127px;
-    height: 35px;
-    color : #303030;
-
-}
-
-/* Contact */
-.contact {
-    position: absolute;
-    width: 59px;
-    height: 18px;
-    left: 1187px;
-    top: 37px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #303030;
-}
-
-/* Rectangle 61 */
-.rectangle-61 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 127px;
-    height: 35px;
-    left: 1153px;
-    top: 28px;
-    border: 1px solid #303030;
-}
-
-/* Group 81 */
-.group-81 {
-    position: absolute;
-    width: 406px;
-    height: 275px;
-    left: 208px;
-    top: 135px;
+  z-index: -10;
+  position: absolute;
+  height: 345px;
+  width: 345px;
+  top: 9vh;
+  left: 5vw;
 }
 
 h1 {
-
-
-font-family: 'Montserrat';
-font-weight: 900;
-font-size: 64px;
-line-height: 78px;
-
-display: flex;
-align-items: center;
-letter-spacing: -0.015em;
-text-transform: uppercase;
-
-color: #303030;
-
-
+  font-size: 64px;
+  font-weight: 900;
 }
 
 .description {
+  margin-top: 4vh;
+}
+
+.group-81 {
+  margin-left: 5vw;
+  width: 22vw;
+  height: auto;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
 
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: -0.015em;
-
-color: #303030;
+.parentbandeau {
+  margin-top: -20vh;
+  position: relative;
 
 }
 
-/* Liv’Lyon */
-.liv-lyon {
-    position: absolute;
-    width: 311px;
-    height: 78px;
-    left: 160px;
-    top: 170px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 78px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
-    color: #303030;
+.black {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-4deg);
+  left: -20px;
 }
 
-/* Lorem ipsum dolor sit amet consectetur. Nisl et facilisi adipiscing eleifend convallis pretium sed. Sodales augue aliquam amet nibh est donec non. Orci. */
-.lorem-ipsum {
-    position: absolute;
-    width: 406px;
-    height: 96px;
-    left: 160px;
-    top: 268px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: -0.015em;
-    color: #303030;
+.image {
+  position: relative;
+  width: 1150px;
+  left: 39.4%;
+
+}
+.bande {
+  position: relative;
+  top:-2px;
+  width: 105vw;
 }
 
-/* Group 79 */
-.group-79 {
-    position: absolute;
-    width: 202px;
-    height: 61px;
-    left: 160px;
-    top: 384px;
-}
-
-/* Rectangle 62 */
-.rectangle-62 {
-    position: absolute;
-    width: 192px;
-    height: 51px;
-    left: 170px;
-    top: 394px;
-    background: #303030;
-}
-
-/* Rectangle 63 */
-.rectangle-63 {
-    position: absolute;
-    width: 192px;
-    height: 51px;
-    left: 160px;
-    top: 384px;
-    background: #FFFFFF;
-}
-
-/* Découvrez-nous */
-.decouvrez-nous {
-    position: absolute;
-    width: 136px;
-    height: 21px;
-    left: 188px;
-    top: 399px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #000000;
-}
-
-/* Group 68 */
-.group-68 {
-    position: absolute;
-    width: 1594px;
-    height: 65px;
-    left: -77px;
-    top: 589.19px;
-    transform: rotate(-4deg);
-}
-
-/* Rectangle 60 */
-.rectangle-60 {
-    position: absolute;
-    width: 1594px;
-    height: 65px;
-    left: -77px;
-    top: 589.19px;
-    background: #303030;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-2 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 899.59px;
-    top: 534.94px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-3 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 508.55px;
-    top: 562.28px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 1 */
-.star-1 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 42.9px;
-    top: 597.85px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 2 */
-.star-2 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 243.41px;
-    top: 583.83px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 3 */
-.star-3 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 438.93px;
-    top: 570.16px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 4 */
-.star-4 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 634.45px;
-    top: 556.48px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 5 */
-.star-5 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 829.97px;
-    top: 542.81px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 6 */
-.star-6 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 1025.5px;
-    top: 529.14px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 7 */
-.star-7 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 1221.02px;
-    top: 515.47px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* Star 8 */
-.star-8 {
-    position: absolute;
-    width: 31px;
-    height: 31px;
-    left: 1416.54px;
-    top: 501.79px;
-    background: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-4 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 117.5px;
-    top: 589.62px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-5 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 313.03px;
-    top: 575.95px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-6 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 704.07px;
-    top: 548.61px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-7 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 1095.12px;
-    top: 521.26px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
-}
-
-/* LIV’LYON */
-.liv-lyon-8 {
-    position: absolute;
-    width: 87px;
-    height: 37px;
-    left: 1290.64px;
-    top: 507.59px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-    color: #FFFFFF;
-    transform: rotate(-4deg);
+.star-11 {
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 280;
+  left:39.4%;
 }

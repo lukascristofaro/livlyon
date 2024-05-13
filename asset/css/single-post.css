@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 900;
+  color: #333;
+  margin-left: -30vh;
+}
+
+.cercle {
+  margin-left: 1vh;
+  height: 84px;
+  width: 333px;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  font-weight: 900;
+}
+
+.petiteetoilefonce {
+  margin-left: 35vh;
+}
+
+.paragrapheequipe {
+  margin-top: 2vh;
+  margin-left: 10vw;
+  word-wrap: break-word;
+  margin-bottom: 10vh;
+}
+
+.soustitre {
+  margin-top: -30vh;
+  margin-left: 70vh;
+  width: 50vw;
+}
+
+.image_projet {
+  margin-left: 30vh;
+  margin-top: 25vh;
+  width: 20vw;
+  box-shadow: -2vh 2vh 0 5px #303030;
+}
+
+.membres {
+  margin-top: -10vh;
+  margin-left: 25vh;
+  width: 50vw;
+}
+.cercle2 {
+  margin-left: 1vh;
+  height: 84px;
+  width: 375px;
+}
+
+.imgvague {
+  width: 120%;
+  margin-bottom: 10vh;
+  margin-left: -10vh;
+}
+
+.cards {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+  color: #000;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-color: transparent;
+  display: inline-block;
+  width: 280px;
+  height: 300px;
+  text-align: center;
+}
+
+.card figure img {
+  box-shadow: -1vh 1vh 0 5px #303030;
+  margin-bottom: 2vh;
+}
+
+.cards .img img {
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.card .nom {
+    grid-row: 2;
+}
+
+.card .role {
+    grid-row: 3;
+}
