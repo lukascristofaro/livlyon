@@ -15,7 +15,7 @@
       <div class="title">
         <img class="petiteetoilefonce" src="<?php echo get_template_directory_uri(); ?>/asset/img/petite_etoile_foncé.svg"/>
         <img class="cercle" src="<?php echo get_template_directory_uri(); ?>/asset/img/cercle.svg"/>
-        <h2 class="subtitle">        
+        <h2 class="subtitle" id="equipe">        
             <?php
                 $content = get_the_content();
                 require_once(ABSPATH . 'wp-content/themes/livlyon/getBlock.php');
@@ -56,5 +56,14 @@ if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_
     </div>
 
 </body>
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (window.location.hash === '#actualites') {
+            var element = document.getElementById('equipe');
+            if (element) {
+                element.scrollIntoView();
+            }
+        }
+    });
+</script>
 </html>

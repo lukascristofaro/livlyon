@@ -11,7 +11,7 @@
 
 <body>
     <nav class="navbar">
-        <a href="<?php echo get_template_directory_uri(); ?>/" class="logo">
+        <a href="https://livlyon.fr" class="logo">
             <img src="<?php echo get_template_directory_uri(); ?>/asset/img/logo.svg" alt="">
         </a>
         <div class="menu">

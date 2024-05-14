@@ -25,11 +25,11 @@
         </div>
         <div class="redirection">
             <!-- actualité evenement equipe a propos contact -->
-            <a class="footer-link" href="https://www.livlyon.fr/actualites">Actualités</a>
-            <a class="footer-link" href="https://www.livlyon.fr/evenements">Événements</a>
-            <a class="footer-link" href="https://www.livlyon.fr/equipe">Équipe</a>
-            <a class="footer-link" href="https://www.livlyon.fr/a-propos">À propos</a>
-            <a class="footer-link" href="https://www.livlyon.fr/contact">Contact</a>
+            <a class="footer-link" href="https://www.livlyon.fr/#actualites">Actualités</a>
+            <a class="footer-link" href="https://www.livlyon.fr/#evenements">Événements</a>
+            <a class="footer-link" href="https://www.livlyon.fr/#equipe">Équipe</a>
+            <a class="footer-link" href="https://www.livlyon.fr/#a-propos">À propos</a>
+            <a class="footer-link" href="https://www.livlyon.fr/#contact">Contact</a>
         </div>
       </div>
     </footer>
