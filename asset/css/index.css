@@ -39,7 +39,7 @@ body {
 }
 
 .cards {
-  margin-left: 0vh;
+  margin-left: 10vh;
   margin-right: 25vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
