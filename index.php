@@ -33,6 +33,7 @@
     </div>
 
 
+    <div class="cards">
 <?php 
 $args = array('post_type' => 'post');
 $my_query = new WP_Query($args);
@@ -45,7 +46,7 @@ if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_
 <?php else: ?>
     <p>Il n'y a pas de contenu à afficher</p>
 <?php endif; ?>
-
+</div>
    
     <div>
         <?php

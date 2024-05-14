@@ -41,16 +41,17 @@ body {
 
 
 .cards {
-    margin-left: 25vh;
+    margin-left: -25vh;
     margin-right: 25vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-row-gap: 100px; /* Espacement vertical entre les cartes */
+    grid-column-gap: 100px; /* Espacement horizontal entre les cartes */
 }
 
 .card {
   color: #000;
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
